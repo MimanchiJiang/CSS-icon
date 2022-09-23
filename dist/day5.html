@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS icon day5</title>
+</head>
+<body>
+    <div class="box">
+    <div class="row-one"></div>
+</div>
+    
+    <style>.box{
+            position: relative;
+            border: 1px solid #333;
+            width: 100px;
+            height: 100px;
+            margin-left: 45%;
+            margin-top: 20%;
+
+        }
+        .row-one{
+            position: absolute;
+            left: 50%;
+            top: 40%;
+            margin-left: -10px;
+            border: 1px solid black;
+            background-color: black;
+            width: 20px;
+        }
+        .row-one::before{
+            content: '';
+            position: absolute;
+            border: 1px solid black;
+            background-color: black;
+            width: 20px;
+            top: 4px;
+            left: -1px;
+        }
+        .row-one::after{
+            content: '';
+            position: absolute;
+            border: 1px solid black;
+            background-color: black;
+
+            width: 20px;
+            top: 12px;
+            left: -1px;
+        }</style>
+</body>
+</html>
