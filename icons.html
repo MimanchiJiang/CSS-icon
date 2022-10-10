@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Icon</title>
+    <link rel="stylesheet" href="./search.css">
+    <link rel="stylesheet" href="./magnify.css">
+    <link rel="stylesheet" href="./minify.css">
+    <link rel="stylesheet" href="./close.css">
+    <link rel="stylesheet" href="./menu.css">
+    <link rel="stylesheet" href="./arrowLeft.css">
+    <link rel="stylesheet" href="./arrowRight.css">
+    <link rel="stylesheet" href="./arrowUp.css">
+    <link rel="stylesheet" href="./arrowDown.css">
+    <link rel="stylesheet" href="./plus.css">
+</head>
+
+<body>
+
+    <div class="icons-content">
+        <div class="overlay">
+            <div class="C icon"></div>
+            <div class="S icon"></div>
+            <div class="Sicon"></div>
+            <div class="blank"></div>
+            <div class="I icon"></div>
+            <div class="Cicon"></div>
+            <div class="O icon"></div>
+            <div class="N icon"></div>
+        </div>
+        <div class="author">Mi Machi</div>
+
+        <div class="icons">
+            <div class="box">
+                <div class=" search-circle"></div>
+                <div class="search-row"></div>
+            </div>
+
+            <div class="box">
+                <div class="magnify-circle"></div>
+                <div class="magnify-row"></div>
+            </div>
+            <div class="box">
+                <div class="minify-circle"></div>
+                <div class="minify-row"></div>
+            </div>
+            <div class="box">
+                <div class="close-row"></div>
+                <div class="close-clos"></div>
+            </div>
+            <div class="box">
+                <div class="menu-row-one"></div>
+            </div>
+            <div class="box">
+                <div class="arrowLeft-row-one"></div>
+                <div class="arrowLeft-row-two"></div>
+                <div class="arrowLeft-row-three"></div>
+            </div>
+            <div class="box">
+                <div class="arrowRight-row-one"></div>
+                <div class="arrowRight-row-two"></div>
+                <div class="arrowRight-row-three"></div>
+            </div>
+            <div class="box">
+                <div class="arrowUp-row-one"></div>
+                <div class="arrowUp-row-two"></div>
+                <div class="arrowUp-row-three"></div>
+            </div>
+            <div class="box">
+                <div class="arrowDown-row-one"></div>
+                <div class="arrowDown-row-two"></div>
+                <div class="arrowDown-row-three"></div>
+            </div>
+            <div class="box">
+                <div class="plus-row-one"></div>
+                <div class="plus-row-two"></div>
+            </div>
+        </div>
+    </div>
+    <style>
+        .C.icon {
+            float: left;
+            color: #000;
+            position: absolute;
+            top: 10%;
+            width: 35px;
+            height: 53px;
+            border-radius: 50%;
+            margin-left: 10px;
+            border-top: solid 4px black;
+            border-right: solid 4px transparent;
+            border-bottom: solid 4px black;
+            border-left: solid 4px black;
+        }
+
+        .S.icon {
+            float: left;
+            color: #000;
+            position: relative;
+            top: 10%;
+            margin-left: 45px;
+            width: 30px;
+            height: 60px;
+        }
+
+        .S.icon::after {
+            box-sizing: border-box;
+            content: '';
+            position: absolute;
+            width: 27px;
+            height: 27px;
+            border-radius: 50%;
+            border-top: 4px solid black;
+            border-left: 4px solid black;
+            border-bottom: 4px solid black;
+            border-right: 4px solid transparent;
+            transform: rotate(45deg);
+        }
+
+        .S.icon::before {
+            box-sizing: border-box;
+            content: '';
+            position: absolute;
+            border: 1px solid black;
+            width: 30px;
+            height: 30px;
+            top: 39%;
+            left: -7%;
+            border-radius: 50%;
+            border-top: 4px solid black;
+            border-left: 4px solid black;
+            border-bottom: 4px solid black;
+            border-right: 4px solid transparent;
+            transform: rotate(225deg);
+        }
+
+        .Sicon {
+            margin-left: 5px;
+            float: left;
+            color: #000;
+            position: relative;
+            top: 10%;
+            width: 30px;
+            height: 60px;
+
+        }
+
+        .Sicon::after {
+            box-sizing: border-box;
+            content: '';
+            position: absolute;
+            width: 27px;
+            height: 27px;
+            border-radius: 50%;
+            border-top: 4px solid black;
+            border-left: 4px solid black;
+            border-bottom: 4px solid black;
+            border-right: 4px solid transparent;
+            transform: rotate(45deg);
+        }
+
+        .Sicon::before {
+            box-sizing: border-box;
+            content: '';
+            position: absolute;
+            border: 1px solid black;
+            width: 30px;
+            height: 30px;
+            top: 39%;
+            left: -7%;
+            border-radius: 50%;
+            border-top: 4px solid black;
+            border-left: 4px solid black;
+            border-bottom: 4px solid black;
+            border-right: 4px solid transparent;
+            transform: rotate(225deg);
+        }
+
+        .blank {
+            margin-left: 5px;
+            float: left;
+            color: #000;
+            position: relative;
+            top: 10%;
+            width: 30px;
+            height: 60px;
+        }
+
+        .I.icon {
+            margin-left: 5px;
+            float: left;
+            color: #000;
+            position: relative;
+            top: 12%;
+            width: 30px;
+            height: 55px;
+        }
+
+        .I.icon::before {
+            box-sizing: border-box;
+            content: '';
+            width: 30px;
+            height: 50px;
+            position: absolute;
+            border: 4px solid black;
+            border-left: 4px solid transparent;
+            border-right: 4px solid transparent;
+        }
+
+        .I.icon::after {
+            box-sizing: border-box;
+            content: '';
+            height: 50px;
+            border: 2px solid black;
+            position: absolute;
+            left: 50%;
+            margin-left: -2px;
+
+        }
+
+        .Cicon {
+            margin-left: 5px;
+            float: left;
+            color: #000;
+            position: relative;
+            top: 10%;
+            width: 35px;
+            height: 53px;
+        }
+
+        .Cicon::before {
+            position: absolute;
+            content: '';
+            width: 35px;
+            height: 53px;
+            border-radius: 50%;
+            border-top: 4px solid black;
+            border-left: 4px solid black;
+            border-bottom: 4px solid black;
+            border-right: 4px solid transparent;
+            box-sizing: border-box;
+        }
+
+        .O.icon {
+            float: left;
+            color: #000;
+            position: relative;
+            top: 10%;
+            width: 35px;
+            height: 53px;
+        }
+
+        .O.icon::after {
+            content: '';
+            position: absolute;
+            box-sizing: border-box;
+            width: 35px;
+            height: 53px;
+            border: 4px solid black;
+            border-radius: 45%;
+        }
+
+        .N.icon {
+            margin-left: 5px;
+            float: left;
+            color: #000;
+            position: relative;
+            top: 10%;
+            width: 35px;
+            height: 53px;
+            padding-right: 10px;
+
+        }
+
+        .N.icon::after {
+            content: '';
+            position: absolute;
+            box-sizing: border-box;
+            width: 35px;
+            height: 53px;
+            border-left: 4px solid black;
+            border-right: 4px solid black;
+        }
+
+        .N.icon::before {
+            content: '';
+            position: absolute;
+            box-sizing: border-box;
+            height: 58px;
+            border: 2px solid black;
+            transform: rotate(148deg);
+            left: 45%;
+            top: -4%;
+        }
+
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            caret-color: transparent;
+            background: #f5f5f5;
+        }
+
+        .author {
+            height: 50px;
+            width: 170px;
+            font-size: 30px;
+            font-weight: bolder;
+            line-height: 50px;
+            display: inline;
+            position: absolute;
+            margin-top: 8%;
+            top: -25px;
+            margin-left: 65%;
+            text-align: center;
+            color: #01847F;
+        }
+
+        .overlay {
+            position: absolute;
+            margin-top: 8%;
+            margin-left: -45%;
+            top: -40px;
+            width: 310px;
+            height: 80px;
+        }
+
+        .icons-content {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+        }
+
+        .icons {
+            border: 1px solid gray;
+            /* display: grid */
+            margin-left: auto;
+            margin-right: auto;
+            grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+            width: 80%;
+            grid-gap: 10px;
+            margin-top: 8%;
+            padding: 40px 40px;
+
+        }
+
+        .box {
+            border: 1px solid black;
+            width: 100px;
+            height: 100px;
+            position: relative;
+            margin-left: 50px;
+            float: left;
+            margin-bottom: 40px;
+        }
+
+        .box:hover {
+            border: 1px solid blue;
+        }
+    </style>
+
+</body>
+
+</html>

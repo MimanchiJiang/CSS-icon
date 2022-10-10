@@ -1,0 +1,35 @@
+.arrowDown-row-one {
+    border: 1px solid black;
+    width: 23px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -9.5px;
+    transform: rotate(90deg);
+    background: black;
+}
+
+.arrowDown-row-two {
+    border: 1px solid black;
+    width: 15px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: 9px;
+    transform: rotate(135deg);
+    background: black;
+}
+
+.arrowDown-row-three {
+    border: 1px solid black;
+    width: 15px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: 9px;
+    margin-left: -11px;
+    transform: rotate(45deg);
+    background: black;
+}
+
+/*# sourceMappingURL=/arrowDown.f9a2d8f3.css.map */

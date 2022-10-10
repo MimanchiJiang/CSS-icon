@@ -184,7 +184,7 @@ function reloadCSS() {
 }
 
 module.exports = reloadCSS;
-},{"./bundle-url":"C:/Users/Admin/AppData/Local/Yarn/Data/global/node_modules/parcel/src/builtins/bundle-url.js"}],"day1.css":[function(require,module,exports) {
+},{"./bundle-url":"C:/Users/Admin/AppData/Local/Yarn/Data/global/node_modules/parcel/src/builtins/bundle-url.js"}],"arrowRight.css":[function(require,module,exports) {
 var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
@@ -217,7 +217,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "56894" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "59799" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
@@ -393,4 +393,4 @@ function hmrAcceptRun(bundle, id) {
   }
 }
 },{}]},{},["C:/Users/Admin/AppData/Local/Yarn/Data/global/node_modules/parcel/src/builtins/hmr-runtime.js"], null)
-//# sourceMappingURL=/day1.3fdcd7fc.js.map
+//# sourceMappingURL=/arrowRight.37b6f6bf.js.map

@@ -1,0 +1,36 @@
+.menu-row-one {
+    box-sizing: border-box;
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    margin-left: -10px;
+    border: 1px solid black;
+    background-color: black;
+    width: 20px;
+}
+
+.menu-row-one::before {
+    box-sizing: border-box;
+    content: '';
+    position: absolute;
+    border: 1px solid black;
+    background-color: black;
+    width: 20px;
+    height: 1px;
+    top: 4px;
+    left: -1px;
+}
+
+.menu-row-one::after {
+    box-sizing: border-box;
+    content: '';
+    position: absolute;
+    border: 1px solid black;
+    background-color: black;
+    height: 1px;
+    width: 20px;
+    top: 10px;
+    left: -1px;
+}
+
+/*# sourceMappingURL=/menu.2b646473.css.map */

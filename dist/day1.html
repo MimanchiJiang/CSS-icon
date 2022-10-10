@@ -1,35 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CSS icon day1</title>
-</head>
+    <link rel="stylesheet" href="/search.5b6f2c86.css">
+    <link rel="stylesheet" href="/magnify.95b14ff2.css">
+    <link rel="stylesheet" href="/minify.a1ba680a.css">
+    <link rel="stylesheet" href="/close.9d169e7f.css">
+    <link rel="stylesheet" href="/menu.2b646473.css">
+    <link rel="stylesheet" href="/arrowLeft.633f79ab.css">
+    <link rel="stylesheet" href="/arrowRight.37b6f6bf.css">
+    <link rel="stylesheet" href="/arrowUp.187ef135.css">
+    <link rel="stylesheet" href="/arrowDown.f9a2d8f3.css">
+    <link rel="stylesheet" href="/plus.b1cbf548.css">
+<script src="/search.5b6f2c86.js"></script><script src="/magnify.95b14ff2.js"></script><script src="/minify.a1ba680a.js"></script><script src="/close.9d169e7f.js"></script><script src="/menu.2b646473.js"></script><script src="/arrowLeft.633f79ab.js"></script><script src="/arrowRight.37b6f6bf.js"></script><script src="/arrowUp.187ef135.js"></script><script src="/arrowDown.f9a2d8f3.js"></script><script src="/plus.b1cbf548.js"></script></head>
+
 <body>
-    <div>
-        <div class="circle"></div>
-        <div class="row"></div>
-    
-    </div>
-    <style>.circle {
-        border: 2px solid black;
-        height: 30px;
-        width: 30px;
-        border-radius: 50%;
-    
-    }
-    
-    .row {
-        position: absolute;
-        box-sizing: border-box;
-        border: 1px solid black;
-        width: 15px;
-        background-color: black;
-        transform: rotate(45deg);
-        top: 42px;
-        left: 34px;
-    }</style>
-    
-   </body>
+    <div class="icons">
+        <div class="box">
+            <div class=" search-circle"></div>
+            <div class="search-row"></div>
+        </div>
+
+        <div class="box">
+            <div class="magnify-circle"></div>
+            <div class="magnify-row"></div>
+        </div>
+        <div class="box">
+            <div class="minify-circle"></div>
+            <div class="minify-row"></div>
+        </div>
+        <div class="box">
+            <div class="close-row"></div>
+            <div class="close-clos"></div>
+        </div>
+        <div class="box">
+            <div class="menu-row-one"></div>
+        </div>
+        <div class="box">
+            <div class="arrowLeft-row-one"></div>
+            <div class="arrowLeft-row-two"></div>
+            <div class="arrowLeft-row-three"></div>
+        </div>
+        <div class="box">
+            <div class="arrowRight-row-one"></div>
+            <div class="arrowRight-row-two"></div>
+            <div class="arrowRight-row-three"></div>
+        </div>
+        <div class="box">
+            <div class="arrowUp-row-one"></div>
+            <div class="arrowUp-row-two"></div>
+            <div class="arrowUp-row-three"></div>
+        </div>
+        <div class="box">
+            <div class="arrowDown-row-one"></div>
+            <div class="arrowDown-row-two"></div>
+            <div class="arrowDown-row-three"></div>
+        </div>
+        <div class="box">
+            <div class="plus-row-one"></div>
+            <div class="plus-row-two"></div>
+        </div>
+        <style>* {
+                box-sizing: border-box;
+                margin: 0;
+                padding: 0;
+                caret-color: transparent;
+            }
+
+            body {
+                background: #f5f5f5;
+                display: flex;
+                align-items: center;
+                justify-content: space-around;
+            }
+
+            .icons {
+                border: 1px solid gray;
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+                width: 80%;
+                grid-gap: 10px;
+                margin-top: 8%;
+                padding: 40px 40px;
+
+            }
+
+            .box {
+                border: 1px solid black;
+                width: 100px;
+                height: 100px;
+                position: relative;
+                margin-right: 50px;
+                /* margin-bottom: 40px; */
+            }
+
+            .box:hover {
+                border: 1px solid blue;
+            }</style>
+
+</div></body>
+
 </html>

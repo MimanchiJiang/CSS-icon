@@ -1,0 +1,19 @@
+.close-row {
+    border: 1px solid black;
+    width: 30px;
+    transform: rotate(45deg);
+    position: absolute;
+    top: 47px;
+    left: 32px;
+}
+
+.close-clos {
+    border: 1px solid black;
+    width: 30px;
+    transform: rotate(135deg);
+    top: 47px;
+    left: 32px;
+    position: absolute;
+}
+
+/*# sourceMappingURL=/close.9d169e7f.css.map */
