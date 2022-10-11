@@ -1,0 +1,19 @@
+.remove-row {
+    border: 1px solid black;
+    position: absolute;
+    width: 20px;
+    top: 50%;
+    left: 50%;
+    margin-left: -10px;
+    transform: rotate(45deg);
+}
+
+.remove-row::after {
+    content: '';
+    position: absolute;
+    border: 1px solid black;
+    width: 20px;
+    transform: rotate(90deg);
+    top: -1px;
+    left: -2px;
+}
