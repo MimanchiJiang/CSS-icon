@@ -1,0 +1,33 @@
+.arrowUp-row-one {
+    border: 1px solid black;
+    width: 23px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -9.5px;
+    transform: rotate(90deg);
+    background: black;
+}
+
+.arrowUp-row-two {
+    border: 1px solid black;
+    width: 15px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -7px;
+    transform: rotate(45deg);
+}
+
+.arrowUp-row-three {
+    border: 1px solid black;
+    width: 15px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -7px;
+    margin-left: -11px;
+    transform: rotate(135deg);
+}
+
+/*# sourceMappingURL=/arrowUp.8a9fbffb.css.map */

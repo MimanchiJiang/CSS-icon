@@ -1,0 +1,48 @@
+.magnify-circle {
+    position: absolute;
+    border: 2px solid black;
+    height: 30px;
+    width: 30px;
+    top: 50%;
+    left: 50%;
+    margin-top: -20px;
+    margin-left: -20px;
+    border-radius: 50%;
+
+}
+
+.magnify-circle::before {
+    position: absolute;
+    content: '';
+    width: 15px;
+    height: 2px;
+    background-color: black;
+    transform: rotate(90deg);
+    top: 12px;
+    left: 6px;
+}
+
+.magnify-circle:after {
+    position: absolute;
+    content: '';
+    width: 15px;
+    height: 2px;
+    background-color: black;
+    top: 12px;
+    left: 6px;
+}
+
+.magnify-row {
+    position: absolute;
+    box-sizing: border-box;
+    border: 1px solid black;
+    width: 15px;
+    background-color: black;
+    transform: rotate(45deg);
+    top: 50%;
+    left: 50%;
+    margin-top: 10px;
+    margin-left: 4px;
+}
+
+/*# sourceMappingURL=/magnify.946a93e8.css.map */

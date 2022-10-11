@@ -6,16 +6,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CSS Icon</title>
-    <link rel="stylesheet" href="./search.css">
-    <link rel="stylesheet" href="./magnify.css">
-    <link rel="stylesheet" href="./minify.css">
-    <link rel="stylesheet" href="./close.css">
-    <link rel="stylesheet" href="./menu.css">
-    <link rel="stylesheet" href="./arrowLeft.css">
-    <link rel="stylesheet" href="./arrowRight.css">
-    <link rel="stylesheet" href="./arrowUp.css">
-    <link rel="stylesheet" href="./arrowDown.css">
-    <link rel="stylesheet" href="./plus.css">
+    <link rel="stylesheet" href="./css/search.css">
+    <link rel="stylesheet" href="./css/magnify.css">
+    <link rel="stylesheet" href="./css/minify.css">
+    <link rel="stylesheet" href="./css/close.css">
+    <link rel="stylesheet" href="./css/menu.css">
+    <link rel="stylesheet" href="./css/arrowLeft.css">
+    <link rel="stylesheet" href="./css/arrowRight.css">
+    <link rel="stylesheet" href="./css/arrowUp.css">
+    <link rel="stylesheet" href="./css/arrowDown.css">
+    <link rel="stylesheet" href="./css/plus.css">
+    <link rel="stylesheet" href="./css/title.css">
 </head>
 
 <body>
@@ -31,7 +32,7 @@
             <div class="O icon"></div>
             <div class="N icon"></div>
         </div>
-        <div class="author">Mi Machi</div>
+        <div class="author"><a href="https://github.com/MimanchiJiang/CSS-icon">Mi Machi</a></div>
 
         <div class="icons">
             <div class="box">
@@ -81,228 +82,21 @@
         </div>
     </div>
     <style>
-        .C.icon {
-            float: left;
-            color: #000;
-            position: absolute;
-            top: 10%;
-            width: 35px;
-            height: 53px;
-            border-radius: 50%;
-            margin-left: 10px;
-            border-top: solid 4px black;
-            border-right: solid 4px transparent;
-            border-bottom: solid 4px black;
-            border-left: solid 4px black;
-        }
-
-        .S.icon {
-            float: left;
-            color: #000;
-            position: relative;
-            top: 10%;
-            margin-left: 45px;
-            width: 30px;
-            height: 60px;
-        }
-
-        .S.icon::after {
-            box-sizing: border-box;
-            content: '';
-            position: absolute;
-            width: 27px;
-            height: 27px;
-            border-radius: 50%;
-            border-top: 4px solid black;
-            border-left: 4px solid black;
-            border-bottom: 4px solid black;
-            border-right: 4px solid transparent;
-            transform: rotate(45deg);
-        }
-
-        .S.icon::before {
-            box-sizing: border-box;
-            content: '';
-            position: absolute;
-            border: 1px solid black;
-            width: 30px;
-            height: 30px;
-            top: 39%;
-            left: -7%;
-            border-radius: 50%;
-            border-top: 4px solid black;
-            border-left: 4px solid black;
-            border-bottom: 4px solid black;
-            border-right: 4px solid transparent;
-            transform: rotate(225deg);
-        }
-
-        .Sicon {
-            margin-left: 5px;
-            float: left;
-            color: #000;
-            position: relative;
-            top: 10%;
-            width: 30px;
-            height: 60px;
-
-        }
-
-        .Sicon::after {
-            box-sizing: border-box;
-            content: '';
-            position: absolute;
-            width: 27px;
-            height: 27px;
-            border-radius: 50%;
-            border-top: 4px solid black;
-            border-left: 4px solid black;
-            border-bottom: 4px solid black;
-            border-right: 4px solid transparent;
-            transform: rotate(45deg);
-        }
-
-        .Sicon::before {
-            box-sizing: border-box;
-            content: '';
-            position: absolute;
-            border: 1px solid black;
-            width: 30px;
-            height: 30px;
-            top: 39%;
-            left: -7%;
-            border-radius: 50%;
-            border-top: 4px solid black;
-            border-left: 4px solid black;
-            border-bottom: 4px solid black;
-            border-right: 4px solid transparent;
-            transform: rotate(225deg);
-        }
-
-        .blank {
-            margin-left: 5px;
-            float: left;
-            color: #000;
-            position: relative;
-            top: 10%;
-            width: 30px;
-            height: 60px;
-        }
-
-        .I.icon {
-            margin-left: 5px;
-            float: left;
-            color: #000;
-            position: relative;
-            top: 12%;
-            width: 30px;
-            height: 55px;
-        }
-
-        .I.icon::before {
-            box-sizing: border-box;
-            content: '';
-            width: 30px;
-            height: 50px;
-            position: absolute;
-            border: 4px solid black;
-            border-left: 4px solid transparent;
-            border-right: 4px solid transparent;
-        }
-
-        .I.icon::after {
-            box-sizing: border-box;
-            content: '';
-            height: 50px;
-            border: 2px solid black;
-            position: absolute;
-            left: 50%;
-            margin-left: -2px;
-
-        }
-
-        .Cicon {
-            margin-left: 5px;
-            float: left;
-            color: #000;
-            position: relative;
-            top: 10%;
-            width: 35px;
-            height: 53px;
-        }
-
-        .Cicon::before {
-            position: absolute;
-            content: '';
-            width: 35px;
-            height: 53px;
-            border-radius: 50%;
-            border-top: 4px solid black;
-            border-left: 4px solid black;
-            border-bottom: 4px solid black;
-            border-right: 4px solid transparent;
-            box-sizing: border-box;
-        }
-
-        .O.icon {
-            float: left;
-            color: #000;
-            position: relative;
-            top: 10%;
-            width: 35px;
-            height: 53px;
-        }
-
-        .O.icon::after {
-            content: '';
-            position: absolute;
-            box-sizing: border-box;
-            width: 35px;
-            height: 53px;
-            border: 4px solid black;
-            border-radius: 45%;
-        }
-
-        .N.icon {
-            margin-left: 5px;
-            float: left;
-            color: #000;
-            position: relative;
-            top: 10%;
-            width: 35px;
-            height: 53px;
-            padding-right: 10px;
-
-        }
-
-        .N.icon::after {
-            content: '';
-            position: absolute;
-            box-sizing: border-box;
-            width: 35px;
-            height: 53px;
-            border-left: 4px solid black;
-            border-right: 4px solid black;
-        }
-
-        .N.icon::before {
-            content: '';
-            position: absolute;
-            box-sizing: border-box;
-            height: 58px;
-            border: 2px solid black;
-            transform: rotate(148deg);
-            left: 45%;
-            top: -4%;
-        }
-
-
         * {
             box-sizing: border-box;
             margin: 0;
             padding: 0;
             caret-color: transparent;
             background: #f5f5f5;
+        }
+
+        a {
+            text-decoration: none;
+            color: #01847F;
+        }
+
+        a:hover {
+            color: #135f5d;
         }
 
         .author {
@@ -319,6 +113,7 @@
             text-align: center;
             color: #01847F;
         }
+
 
         .overlay {
             position: absolute;

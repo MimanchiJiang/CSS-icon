@@ -1,0 +1,36 @@
+.arrowLeft-row-one {
+    box-sizing: border-box;
+    position: absolute;
+    left: 46%;
+    top: 45%;
+    margin-left: -10px;
+    border: 1px solid black;
+    background-color: black;
+    width: 15px;
+    height: 1px;
+    transform: rotate(135deg);
+}
+
+.arrowLeft-row-two {
+    box-sizing: border-box;
+    position: absolute;
+    left: 48%;
+    top: 50%;
+    margin-left: -10px;
+    width: 23px;
+    border: 1px solid black;
+    background-color: black;
+}
+
+.arrowLeft-row-three {
+    box-sizing: border-box;
+    position: absolute;
+    border: 1px solid black;
+    background-color: black;
+    width: 15px;
+    transform: rotate(45deg);
+    left: 36%;
+    top: 55%;
+}
+
+/*# sourceMappingURL=/arrowLeft.0e44aa86.css.map */

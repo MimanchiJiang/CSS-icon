@@ -1,0 +1,27 @@
+.search-circle {
+    position: absolute;
+    border: 2px solid black;
+    height: 30px;
+    width: 30px;
+    top: 50%;
+    left: 50%;
+    margin-top: -20px;
+    margin-left: -20px;
+    border-radius: 50%;
+
+}
+
+.search-row {
+    position: absolute;
+    box-sizing: border-box;
+    border: 1px solid black;
+    width: 15px;
+    background-color: black;
+    transform: rotate(45deg);
+    top: 50%;
+    left: 50%;
+    margin-top: 10px;
+    margin-left: 4px;
+}
+
+/*# sourceMappingURL=/search.191b4108.css.map */

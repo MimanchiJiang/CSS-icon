@@ -1,0 +1,36 @@
+.arrowRight-row-one {
+    box-sizing: border-box;
+    position: absolute;
+    left: 58%;
+    top: 45%;
+    margin-left: -10px;
+    border: 1px solid black;
+    background-color: black;
+    width: 15px;
+    height: 1px;
+    transform: rotate(45deg);
+}
+
+.arrowRight-row-two {
+    box-sizing: border-box;
+    position: absolute;
+    left: 48%;
+    top: 50%;
+    margin-left: -10px;
+    width: 23px;
+    border: 1px solid black;
+    background-color: black;
+}
+
+.arrowRight-row-three {
+    box-sizing: border-box;
+    position: absolute;
+    border: 1px solid black;
+    background-color: black;
+    width: 15px;
+    transform: rotate(135deg);
+    left: 48%;
+    top: 55%;
+}
+
+/*# sourceMappingURL=/arrowRight.b8a0637e.css.map */
