@@ -24,7 +24,8 @@
     <link rel="stylesheet" href="/audio.8b46c67b.css">
     <link rel="stylesheet" href="/pin.af43789b.css">
     <link rel="stylesheet" href="/chat.6211fe70.css">
-<script src="/search.191b4108.js"></script><script src="/magnify.946a93e8.js"></script><script src="/minify.2db312aa.js"></script><script src="/close.670d6bcd.js"></script><script src="/menu.36e65361.js"></script><script src="/arrowLeft.0e44aa86.js"></script><script src="/arrowRight.b8a0637e.js"></script><script src="/arrowUp.8a9fbffb.js"></script><script src="/arrowDown.5a93f6f2.js"></script><script src="/plus.0bcfbd76.js"></script><script src="/title.162e5562.js"></script><script src="/minus.5ac9fca2.js"></script><script src="/check.e880f5f3.js"></script><script src="/remove.5a91cf64.js"></script><script src="/trash.11a41341.js"></script><script src="/audio.8b46c67b.js"></script><script src="/pin.af43789b.js"></script><script src="/chat.6211fe70.js"></script></head>
+    <link rel="stylesheet" href="/stop.f669539f.css">
+<script src="/search.191b4108.js"></script><script src="/magnify.946a93e8.js"></script><script src="/minify.2db312aa.js"></script><script src="/close.670d6bcd.js"></script><script src="/menu.36e65361.js"></script><script src="/arrowLeft.0e44aa86.js"></script><script src="/arrowRight.b8a0637e.js"></script><script src="/arrowUp.8a9fbffb.js"></script><script src="/arrowDown.5a93f6f2.js"></script><script src="/plus.0bcfbd76.js"></script><script src="/title.162e5562.js"></script><script src="/minus.5ac9fca2.js"></script><script src="/check.e880f5f3.js"></script><script src="/remove.5a91cf64.js"></script><script src="/trash.11a41341.js"></script><script src="/audio.8b46c67b.js"></script><script src="/pin.af43789b.js"></script><script src="/chat.6211fe70.js"></script><script src="/stop.f669539f.js"></script></head>
 
 <body>
 
@@ -107,23 +108,30 @@
             <div class="box">
                 <div class="chat"></div>
             </div>
+            <div class="box">
+                <div class="stop"></div>
+            </div>
         </div>
     </div>
-    <style>* {
+    <style lang="scss" scoped="">* {
             box-sizing: border-box;
             margin: 0;
             padding: 0;
             caret-color: transparent;
-            background: #f5f5f5;
         }
 
         a {
             text-decoration: none;
-            color: #01847F;
+            color: #003153;
         }
 
         a:hover {
             color: #135f5d;
+        }
+
+        body {
+            background-color: #E5DDD7;
+
         }
 
         .author {
@@ -139,6 +147,8 @@
             margin-left: 65%;
             text-align: center;
             color: #01847F;
+            background-color: #E5DDD7;
+
         }
 
 
@@ -149,6 +159,7 @@
             top: -40px;
             width: 310px;
             height: 80px;
+            background-color: #E5DDD7;
         }
 
         .icons-content {
@@ -156,6 +167,7 @@
             align-items: center;
             justify-content: space-around;
         }
+
 
         .icons {
             border: 1px solid gray;
@@ -178,11 +190,22 @@
             margin-left: 50px;
             float: left;
             margin-bottom: 40px;
+            border-radius: 5px;
         }
 
         .box:hover {
-            border: 1px solid blue;
-        }</style>
+            background-color: #003153;
+            color: white;
+
+        }
+
+        .box:hover>* {
+            border: 2px solid white;
+        }
+
+        /* .box:hover:last-child {
+            border: solid white;
+        } */</style>
 
 </body>
 
