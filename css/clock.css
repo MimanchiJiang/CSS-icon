@@ -1,0 +1,32 @@
+.clock {
+    border: 2px solid black;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 50%;
+    left: 50%;
+    margin-top: -20px;
+    margin-left: -20px;
+    border-radius: 50%;
+}
+
+.clock::before {
+    border: 1px solid black;
+    position: absolute;
+    content: '';
+    width: 15px;
+    top: 50%;
+    left: 50%;
+}
+
+.clock::after {
+    border: 1px solid black;
+    position: absolute;
+    content: '';
+    width: 15px;
+    transform: rotate(90deg);
+    left: 50%;
+    top: 50%;
+    margin-left: -7.5px;
+    margin-top: -7.5px;
+}

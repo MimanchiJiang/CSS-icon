@@ -1,0 +1,32 @@
+.clockh9m30 {
+    border: 2px solid black;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 50%;
+    left: 50%;
+    margin-top: -20px;
+    margin-left: -20px;
+    border-radius: 50%;
+}
+
+.clockh9m30::before {
+    border: 1px solid black;
+    position: absolute;
+    content: '';
+    width: 15px;
+    left: 2%;
+    top: 52%;
+}
+
+.clockh9m30::after {
+    border: 1px solid black;
+    position: absolute;
+    content: '';
+    width: 15px;
+    transform: rotate(90deg);
+    left: 50%;
+    top: 53%;
+    margin-left: -7.5px;
+    margin-top: 7.5px;
+}
