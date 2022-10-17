@@ -1,7 +1,7 @@
 .trash {
     position: absolute;
     border: 1px solid black;
-    width: 30px;
+    width: 27px;
     top: 50%;
     margin-top: -10px;
     left: 50%;
@@ -16,17 +16,17 @@
     border-radius: 4px 4px 0 0;
     top: -10px;
     margin-left: 3px;
-    border-left: 3px solid black;
-    border-top: 3px solid black;
-    border-right: 3px solid black;
+    border-left: 2px solid black;
+    border-top: 2px solid black;
+    border-right: 2px solid black;
 }
 
 .trash::after {
     content: '';
     position: absolute;
-    border-left: 3px solid black;
-    border-bottom: 3px solid black;
-    border-right: 3px solid black;
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
     height: 18px;
     width: 15px;
     margin-left: 3px;
